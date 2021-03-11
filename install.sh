@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt update
 sudo apt install --reinstall git dkms build-essential linux-headers-$(uname -r)
 sudo apt install bc module-assistant
 git clone https://github.com/tomaspinho/rtl8821ce
